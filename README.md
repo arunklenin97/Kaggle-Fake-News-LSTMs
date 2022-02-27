@@ -8,6 +8,8 @@
 * label: a label that marks the article as potentially unreliable
   * 1: unreliable
   * 0: reliable
+
+The data can be downloaded from Kaggle website using the above link
 ### Evaluation Metric
 * The evaluation metric for this competition is accuracy, a very straightforward metric.
 * Accuracy measures false positives and false negeatives equally, and really should only be used in simple cases and when classes are of (generally) equal class size
