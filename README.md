@@ -19,7 +19,11 @@ The data can be downloaded from Kaggle website using the above link
 * Code block to apply Lemmatize is commented as it is taking immense amount of time to implement this.
 * Applied word embedding technique to the title column and also can be implemented by combining all the features in to a single feature. (Any comments about this would be apprecaited)
 * Trained the model with LTSMs (includes Bidirectional) with Stochastic Gradient Descent optimizer as it started performing really well after 10-15 epochs whereas Adam also performed well from the first epoch but no significance increase in perfomance was seen
-* Decision Boundary to classify predictions is based on threshold which maximizes ROC AUC however a threshold to maximize accuracy can also be developed
-### Results
+* Decision Boundary to classify predictions is based on threshold which maximizes ROC AUC however a threshold to maximize accuracy has also been developed
+### Results with SGD
 * Pulic Score: 92.7%
 * Private Score: 93.6%
+
+### Resuts with nadam optimizer
+* Pulic Score: 98.85%
+* Private Score: 99.06%
